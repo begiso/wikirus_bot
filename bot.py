@@ -19,7 +19,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Добро пожаловать в Википедию.\nНапишите, что вы хотите найти ?")
+    await message.reply("Добро пожаловать в Википедия.\nНапишите, что вы хотите найти ?")
 
 
 @dp.message_handler(regexp='(^cat[s]?$|puss)')
